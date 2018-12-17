@@ -1,5 +1,5 @@
 <?php
-aif(!empty($_POST["register-user"])) {
+if(!empty($_POST["register-user"])) {
 	/* Form Required Field Validation */
 	foreach($_POST as $key=>$value) {
 		if(empty($_POST[$key])) {
